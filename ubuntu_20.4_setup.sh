@@ -13,6 +13,7 @@ sudo apt remove firefox thunderbird
 
 
 #Pop-shell stuff
+git clone https://github.com/pop-os/shell.git
 cd shell
 make local-install
 cd ..
