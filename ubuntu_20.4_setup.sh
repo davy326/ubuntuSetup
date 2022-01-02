@@ -50,7 +50,10 @@ echo "Edit /etc/systemd/sleep.conf to change lid switch to suspend-then-hibernat
 Use this command:   sudo gedit /etc/systemd/sleep.conf
 "
 echo "Edit /etc/systemd/logind.conf to suspend timer to 30min.
-Use this command:   sudo gedit /etc/systemd/logind.conf
+Use this command:   sudo gedit /etc/systemd/logind.conf 
+Run: sudo systemctl kill -s HUP systemd-logind :to make changes
+
 "
+
 
 
